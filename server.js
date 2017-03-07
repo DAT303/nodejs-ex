@@ -77,7 +77,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/test', function (req, res) {
-    res.send("Hello again !!!");
+    res.send("Finally working !!!");
 });
 
 app.get('/pagecount', function (req, res) {
